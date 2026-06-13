@@ -1,11 +1,109 @@
-# Markdown Generator
+title: "Ali M. Youssef Ahmed El-Helaly"
+name: "Ali M. Youssef Ahmed El-Helaly"
+description: "Personal academic website of Ali M. Youssef Ahmed El-Helaly, Teaching Assistant and mathematics researcher specializing in harmonic analysis, alpha-harmonic functions, hyperbolic harmonic functions, fractional calculus, special functions, and PDE-related analysis."
 
-This directory contains various ways of creating Markdown for your site. In general, filenames that end with `.ipynb` or `.py` are similar, but may contain different documentation or are intended to be run from with GitHub when deploying your site.
+url: "https://ali7621575.github.io"
+baseurl: ""
+repository: "ali7621575/ali7621575.github.io"
 
-## Python Scripts
+include:
 
-The .py files are Python scripts that that can be run from the command line (ex., `python3 publications.py publications.csv`) with the objective of also ensuring that they have reduced requirements for packages, which may allow them to run when deploying your site from within GitHub.
+* _pages
 
-## Jupyter Notebooks
+author:
+avatar: "/images/profile.png"
+name: "Ali M. Youssef Ahmed El-Helaly"
+bio: "Teaching Assistant and Ph.D. student in Mathematics. My research interests include harmonic analysis, alpha-harmonic and hyperbolic harmonic functions, fractional calculus, special functions, complex analysis, and PDE-related analysis."
+location: "Sohag, Egypt / Dhahran, Saudi Arabia"
+employer: "Sohag University / King Fahd University of Petroleum and Minerals (KFUPM)"
+email: "[g202315690@kfupm.edu.sa](mailto:g202315690@kfupm.edu.sa)"
+github: "ali7621575"
+googlescholar: "https://scholar.google.com.eg/citations?user=HcgO3GMAAAJ&hl=en"
+researchgate: ""
+orcid: "0000-0002-3219-5688"
+scopus: "57219533618"
+linkedin: "https://www.linkedin.com/in/ali-youssef-9484b19a/"
 
-These .ipynb files are Jupyter notebook files that convert a TSV containing structured data about talks (`talks.tsv`) or presentations (`presentations.tsv`) into individual markdown files that will be properly formatted for the academicpages template. The notebooks contain a lot of documentation about the process.
+collections:
+publications:
+output: true
+permalink: /:collection/:path/
+talks:
+output: true
+permalink: /:collection/:path/
+teaching:
+output: true
+permalink: /:collection/:path/
+portfolio:
+output: true
+permalink: /:collection/:path/
+
+defaults:
+
+* scope:
+  path: ""
+  type: pages
+  values:
+  layout: single
+  author_profile: true
+
+* scope:
+  path: ""
+  type: publications
+  values:
+  layout: single
+  author_profile: true
+
+* scope:
+  path: ""
+  type: talks
+  values:
+  layout: single
+  author_profile: true
+
+* scope:
+  path: ""
+  type: teaching
+  values:
+  layout: single
+  author_profile: true
+
+* scope:
+  path: ""
+  type: portfolio
+  values:
+  layout: single
+  author_profile: true
+
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+input: GFM
+hard_wrap: false
+
+plugins:
+
+* jekyll-feed
+* jekyll-gist
+* jekyll-paginate
+* jekyll-sitemap
+* jekyll-include-cache
+
+locale: "en-US"
+timezone: "Asia/Riyadh"
+
+atom_feed:
+hide: false
+
+og_image: ""
+twitter:
+username: ""
+
+analytics:
+provider: false
+
+comments:
+provider: false
+
+search: false
