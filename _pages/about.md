@@ -1,3 +1,8 @@
+---
+permalink: /
+title: "About"
+author_profile: true
+---
 I am **Ali M. Youssef Ahmed El-Helaly**, a Teaching Assistant and academic researcher in Mathematics.
 
 I am currently pursuing a Ph.D. in Mathematics at **King Fahd University of Petroleum and Minerals (KFUPM), Saudi Arabia**. I am also a Teaching Assistant in the Department of Mathematics, Faculty of Science, **Sohag University, Egypt**.
