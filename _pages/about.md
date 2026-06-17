@@ -1,7 +1,12 @@
 ---
+---
 permalink: /
 title: "About"
 author_profile: true
+redirect_from:
+  - /about/
+  - /about.html
+---
 ---
 I am **Ali M. Youssef Ahmed El-Helaly**, a Teaching Assistant and academic researcher in Mathematics.
 
