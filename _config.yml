@@ -8,8 +8,7 @@ repository: "ali7621575/ali7621575.github.io"
 
 include:
 
-* _pages
-
+  - _pages
 author:
 avatar: "/images/profile.png"
 name: "Ali M. Youssef Ahmed El-Helaly"
